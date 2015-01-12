@@ -82,13 +82,13 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>.;..\..\src\win32;..\..\src;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
-    <IntDir>obj\$(ProjectName)\</IntDir>
+    <IntDir>obj\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>adflibd</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
-    <IntDir>obj\$(ProjectName)\</IntDir>
+    <IntDir>obj\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>adflibd</TargetName>
     <IncludePath>.;..\..\src\win32;..\..\src;$(IncludePath)</IncludePath>
   </PropertyGroup>

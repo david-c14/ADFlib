@@ -81,13 +81,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <IncludePath>.;..\..\src\win32;..\..\src;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
-    <IntDir>obj\$(ProjectName)\</IntDir>
+    <IntDir>obj\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>adflibs</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <IncludePath>.;..\..\src\win32;..\..\src;$(IncludePath)</IncludePath>
     <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
-    <IntDir>obj\$(ProjectName)\</IntDir>
+    <IntDir>obj\$(ProjectName)\$(Configuration)\</IntDir>
     <TargetName>adflibs</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
